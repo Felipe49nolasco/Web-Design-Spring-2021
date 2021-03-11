@@ -1,0 +1,20 @@
+h1 {
+    color: orange;
+    background-color:black;
+    font-size: 30px;
+}
+
+ul {
+    text-align: center;
+    color:red;
+
+   
+}
+
+p{
+    background-color: #000066;
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
