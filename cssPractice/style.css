@@ -2,6 +2,7 @@ h1 {
     color: orange;
     background-color:black;
     font-size: 30px;
+    font-family: Optima, sans-serif;
 }
 
 ul {
@@ -18,3 +19,42 @@ p{
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* The following is the superhero activity */
+
+#batmanTitle {
+    color: yellow;
+    font-family: Optima, sans-serif;
+}
+
+#batmanFacts {
+    background-color: gray;
+    text-align: right;
+    color: honeydew;
+}
+
+#firstList {
+    background-color: indianred;
+}
+
+#secondList {
+    background-color: black;
+}
+
+#thirdList {
+    background-color: olivedrab;
+}
+
+#firstList, #secondList, #thirdList {
+    font-size: 20px;
+}
+
+.quarantineActivities {
+   background-color: powderblue;
+   border: 5px double black;
+}
+/* classes have dots */
+
+body {
+    background-color: burlywood;
+    background-image: url("practiceimages/desert_scenery.jpg");
+}
