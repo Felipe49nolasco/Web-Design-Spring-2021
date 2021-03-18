@@ -5,30 +5,35 @@
         <meta name="viewport" content="width=device-width">
         <title> star wars toys </title>
     </head>
+    <!-- Link to reference CSS file -->
+    <link href="style.css" rel="stylesheet" text="text/css">
+
     <body>
+        <!-- library for fonts -->
         <!-- Start coding from here -->
 
         <!-- 1. User Link Section -->
-        <ul>
+        <ul class="user-links">
             <!-- User image -->
-            <li>
+
+            <li class="user-links-li">
                 <a href="index.html">
                     <img src="images/user.png" width="28" height="28">
-                    <p>Felipe</p>
+                    <p class="top-left-items">Felipe</p>
                 </a>
             </li>
 
             <!-- Cash image -->
-            <li>
+            <li class="user-links-li" >
                 <img src="images/cash.png" width="28" height="28">
-                <p>$100</p>
+                <p class="top-left-items">$100</p>
             </li>
             
             <!-- Cart image -->
-            <li>
+            <li class="user-links-li">
                 <a href="index.html">
                     <img src="images/cart.jpg" width="28" height="28">
-                    <p>cart(0)</p>
+                    <p class="top-left-items">cart(0)</p>
                 </a>
             </li>
 
@@ -50,7 +55,8 @@
         <!-- 3. Navigation Bar   -->
         <nav>
             <hr width="50%"/> 
-            <a href="index.html">Home</a>
+            <!-- CHANGE CURRENT BASED ON THE HTML YOU ARE IN -->
+            <a class="current" href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contacts</a>
@@ -59,6 +65,37 @@
 
         <br>
         <br>
+
+        <main>
+            <figure id="dog">
+              <img src="images/doggo.jpg">
+            </figure>
+
+            <footer>
+                <hr>
+            </footer>
+  
+            <br>
+            <br>
+            <br>
+
+        
+            
+            <div>
+              Hello! <br/>
+              <p> Thank you for visiting my online shopping website. </p>
+              <p> I am a Software Engineer working for DigitalNEST </p>
+              <p> Feel Free to contact me! </p>
+              <p>Intro To Web Design 2021 © yourLastName
+               <strong> Disclaimer:</strong> The information in this webpage is fictitious. <br> It is used for academic purposes only.
+                </p>
+
+                <img src="images/logo.png" height="80" width="200">
+            </div>
+
+          </main>
+          <!-- footer -->
+
 
         <!-- Code above from here -->
     </body>

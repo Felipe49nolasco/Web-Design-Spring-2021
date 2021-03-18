@@ -1,0 +1,43 @@
+/* In charge of setting up */
+body {
+}
+
+/* Makes everything to the center except for the user link
+section */
+header, nav, main, footer {
+    text-align: center;
+}
+
+/* user links */
+.user-links{
+    /* border: 1px solid; */
+    list-style-type: none;
+
+    /* Moves list to the right */
+    text-align: right;
+}
+
+.top-left-items{
+    /* puts logo next to the line */
+    display: inline;
+    position: relative;
+    /* left: 5px;
+    bottom: 6px; */
+}
+
+.user-links-li{
+    display: inline;
+    margin-right: 30px;
+}
+/* remove underline of all anchor tags */
+nav a {
+    /* text-decoration: none; */
+    font-size: 2.5em ;
+    color: rg(222, 240, 247);
+    padding: 20px;
+}
+
+nav :hover{
+    color: red;
+    font-size: 4em;
+}
